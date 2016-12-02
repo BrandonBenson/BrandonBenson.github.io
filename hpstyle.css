@@ -1,0 +1,248 @@
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a {
+  font-weight: bold;
+  text-align: center;
+  min-width: 200px;
+  max-width: 200px;
+  float: left;
+  display: block;
+  font-size: 35px;
+  margin-left: 220px;
+  color: white;
+  border-style: inset;
+  border-color: white;
+  padding: 1px 1px 1px 1px;
+  background-color: #FCB0B3;
+}
+body {
+  width: 1920px;
+  height: 1080px;
+  background-color: gray;
+}
+h1 {
+  float: inherit;
+  background-color: #FCB0B3;
+  padding-left: 840px;
+  display: block;
+  border-style: inset;
+  border-color: white;
+  color: white;
+}
+#body {
+  color:white;
+  font-size: 30px;
+  border-color: white;
+  border-style: inset;
+  background-color: white;
+  background-color: #FCB0B3;
+  display: inline-block;
+  margin: 100px 20px 10px 420px;
+  padding: 20px;
+  width: 1080px;
+  height: 350px;
+}
+#art1 {
+  height: 30px;
+  width: 100px;
+  border-color: white;
+  display: block;
+  border-style: inset;
+  padding: 10px;
+  margin: 200px 20px -79px 900px;
+  background-color: #b3daff;
+  color: white;
+  animation: ani1 5s infinite;
+}
+#wheel1 {
+  border-radius: 20px;
+  height: 20px;
+  width: 20px;
+  border-color: white;
+  display: block;
+  padding: 10px;
+  margin: 25px 0px 0px 0px;
+  background-color: black;
+  color: white;
+}
+#wheel2 {
+  border-radius: 20px;
+  height: 20px;
+  width: 20px;
+  border-color: white;
+  display: block;
+  padding: 10px;
+  margin: -40px 0px 0px 60px;
+  background-color: black;
+  color: white;
+}
+#cab {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  border-color: white;
+  border-top:    5px inset white;
+  border-right:  5px inset white; 
+  border-left: 5px inset white;
+  display: block;
+  padding: 0px;
+  margin: -125px 0px 0px -10px;
+  background-color: #b3daff;
+  color: white;
+}
+#flagpole {
+  border-radius: 4px;
+  height: 70px;
+  width: 10px;
+  display: block;
+  padding: 0px;
+  margin: -70px 0px 0px 70px;
+  background-color: white;
+  color: white;
+}
+#flag {
+  border-radius: 4px;
+  height: 40px;
+  width: 70px;
+  display: block;
+  padding: 0px;
+  margin: -70px 0px 0px 70px;
+  background-color: red;
+  color: white;
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQaptfT--Xebx_bQx-RdVZHzGitVktdGaQis6PRKKVWM71-5kg8JOoGtZs-");
+  background-size: 70px 40px;
+}
+
+@keyframes ani1 {
+  0% { 
+    margin: 200px 20px -79px 400px;
+    transform: rotateY(180deg);
+  }
+  25% {
+    margin: 200px 20px -79px 1400px;
+    
+  }
+  50% {
+    margin: 200px 20px -79px 1400px;
+    transform: rotateY(360deg);
+  }
+  75% {
+    margin: 200px 20px -79px 400px;
+  }
+  100%{
+    margin: 200px 20px -79px 400px;
+    transform: rotateY(180deg);
+  }
+}
+
+/* projects.html styles for the ship */
+
+
+/* ..................................*/
+
+
+
+
+html{
+  background-color: #F98B8B;
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+/* trying to figure out how to tie it all togther :( */
+.document {
+  width: 1800px;
+  height: 9275px;
+}
+.smoke {
+  margin-top: -3.3%;
+  margin-left: 45%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  animation: smoke 5s infinite;
+  animation-fill-mode: both
+  animation-timing-function: ease-in;
+}
+.chimmney {
+  background-color: black;
+  height: 40px;
+  width: 30px;
+  margin-left: 45%;
+  margin-top: 2.11p%;
+}
+.sun{
+  color: #F98B8B;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  padding: 1px;
+  background-color: #FDEC5D;
+  margin-left: 20%;
+  margin-top: -88.4%;
+  border-radius: 50%;
+}
+.ship {
+  height: 100px;
+  width: 100px;
+  display: block;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #CAC8C8;
+  margin-left: 40%;
+  margin-top: 10%;
+} 
+.window {
+  display: flex;
+  width: 70px;
+  height: 40px;
+  margin-left: 40%;
+  margin-top: -6%;
+  background-color: #97E5EE;
+}
+.hull {
+  color: #CAC8C8;
+  display: flex;
+  border-radius: 0 0 90px 90px;
+  width: 350px;
+  height: 80px;
+  margin-left: 35%;
+  margin-top: 2%;
+  background-color: #E8B080;
+  background-image:url("http://i.imgur.com/zx9vGlq.png");
+}
+.waves {
+  width: 87%;
+  height: 10%;
+  margin-top: -1.25%;
+  padding: 10%;
+  background-color: #80CFE8;
+}
+/* actual ship test */
+
+.actualship {
+  animation: sailing 20s 1;
+}
+
+/* animation shit */
+
+@keyframes smoke {
+    0%   {margin-left: 45%; margin-top: -3.3%;}
+/*    25%  {margin-left: 50%; margin-top: -4.3%;}*/
+/*    50%  {margin-left: 55%; margin-top: -5.3%;}*/
+    100% {margin-left: 60%; margin-top: -6.3%; height: 55px; width: 55px;}
+}
+
+@keyframes sailing {
+    0% {
+    }
+
+
+    100% {
+    }
+}
+
+/* ALL DONE HOLY SHIT THATS ALOT OF CODE */
+
