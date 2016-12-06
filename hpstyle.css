@@ -10,7 +10,7 @@ a {
   max-width: 200px;
   float: left;
   display: block;
-  font-size: 35px;
+  font-size: 25px;
   margin-left: 220px;
   color: white;
   border-style: inset;
@@ -32,9 +32,12 @@ h1 {
   border-color: white;
   color: white;
 }
+#aboutMePicutre {
+  background-image: url("http://shushi168.com/data/out/32/35869735-black-picture.jpg");
+}
 #body {
   color:white;
-  font-size: 30px;
+  font-size: 20px;
   border-color: white;
   border-style: inset;
   background-color: white;
@@ -43,7 +46,7 @@ h1 {
   margin: 100px 20px 10px 420px;
   padding: 20px;
   width: 1080px;
-  height: 350px;
+  height: 300px;
 }
 #art1 {
   height: 30px;
