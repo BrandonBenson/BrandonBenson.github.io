@@ -1,3 +1,7 @@
+
+
+
+
 var home = document.getElementById("home");
 var projects = document.getElementById("projects");
 var contact = document.getElementById("contact");
@@ -14,7 +18,15 @@ document.onclick = function coolShit (event) {
 	alert("hello it works congrats")
 }
 */
+function rNumber() {
+	document.getElementById("rNumber");
+	return Math.floor(Math.random() * (11 - 0) - 0);
+};
 
+function print() {
+	//	alert(rNumber());
+	document.getElementById("ranNumber").innerHTML = (rNumber());
+};
 function colorshifthome() {
 	document.getElementById("home").style.backgroundColor = '#b3daff';
 };
@@ -39,6 +51,8 @@ function colorshiftabout() {
 function coloroffshiftabout() {
 	document.getElementById("about").style.backgroundColor = '#FCB0B3';
 };
+
+
 
 /*
 home.onmouseover = function colorshift1 (event) {

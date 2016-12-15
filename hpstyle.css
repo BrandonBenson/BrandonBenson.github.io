@@ -1,9 +1,18 @@
 
-a {
+.smallLink {
   text-decoration: none;
   color: white;
+  font-stretch: 2px;
+  font-weight: bold;
+  text-decoration: underline;
 }
-a {
+#coolHuh {
+  font-size: 40px;
+  padding-left: 350px;
+}
+.bigLink {
+  text-decoration: none;
+  color: white;
   font-weight: bold;
   text-align: center;
   min-width: 200px;
@@ -32,6 +41,15 @@ h1 {
   border-color: white;
   color: white;
 }
+h2{
+    float: inherit;
+  background-color: #FCB0B3;
+  padding-left: 450px;
+  display: block;
+  border-style: outset;
+  border-color: white
+  color: white;
+}
 #aboutMePicutre {
   background-image: url("http://shushi168.com/data/out/32/35869735-black-picture.jpg");
 }
@@ -47,6 +65,19 @@ h1 {
   padding: 20px;
   width: 1080px;
   height: 300px;
+}
+#aboutBody{
+  color:white;
+  font-size: 20px;
+  border-color: white;
+  border-style: inset;
+  background-color: white;
+  background-color: #FCB0B3;
+  display: inline-block;
+  margin: 100px 20px 10px 420px;
+  padding: 20px;
+  width: 1080px;
+  height: 600px;
 }
 #art1 {
   height: 30px;
@@ -119,6 +150,7 @@ h1 {
   background-size: 70px 40px;
 }
 
+
 @keyframes ani1 {
   0% { 
     margin: 200px 20px -79px 400px;
@@ -140,6 +172,15 @@ h1 {
     transform: rotateY(180deg);
   }
 }
+/*...................................*/
+/* phone shit........................*/
+#phone {
+  margin-left: 425px;
+  height: 20px;
+  width: 200px;
+  background-color: black;
+  border-radius: 10px;
+};
 
 /* projects.html styles for the ship */
 
